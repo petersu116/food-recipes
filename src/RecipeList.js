@@ -9,13 +9,13 @@ function RecipeList({ recipes, deleteRecipe}) {
   const recipeListing = recipes.map((recipe, index) => {
     console.log(index)
     return (
-       <tr key={index} id={index}>
+       <tr key={index}>
         <td>{recipe.name}</td>
         <td>{recipe.cuisine}</td>
         <td><img src={recipe.photo} className="scale-down" alt="Food"/></td>
         <td className="content_td"><p>{(recipe.ingredients)}</p></td>
         <td className="content_td"><p>{(recipe.preparation)}</p></td>
-        <td><button name="delete" onClick={deleteRecipe}>Delete</button></td>
+        <td><button name="delete" onClick={() => deleteRecipe(recipe)}>Delete</button></td>
        </tr> 
     )
   })
