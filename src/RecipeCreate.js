@@ -26,7 +26,7 @@ function RecipeCreate({ handleCreate }) {
     handleCreate(dataForm);
     setDataForm(recipeObject);
   }
-console.log(dataForm);
+
   return (
     <form name="create" onSubmit={ handleSubmit }>
       <table>
