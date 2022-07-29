@@ -7,7 +7,7 @@ function RecipeList({ recipes, deleteRecipe}) {
   // TODO: Each recipe row must have a delete button - <button name="delete">Delete</button> - that deletes the post when clicked
 
   const recipeListing = recipes.map((recipe, index) => {
-    console.log(index)
+
     return (
        <tr key={index}>
         <td>{recipe.name}</td>
