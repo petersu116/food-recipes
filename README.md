@@ -11,5 +11,6 @@ A CRUD application allows a user to create, read, update or delete selected data
 - Debugging React code through console output
 
 Screen shot of the Page:
-![alt text](Recipe-Screen-Shot .png "Recipes")
+
+<img src="Recipe-Screen-Shot .png" alt="Recipes" width="200"/>
 
