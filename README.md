@@ -12,5 +12,5 @@ A CRUD application allows a user to create, read, update or delete selected data
 
 Screen shot of the Page:
 
-<img src="Recipe-Screen-Shot .png" alt="Recipes" width="200"/>
+<img src="Recipe-Screen-Shot .png" alt="Recipes" width="600"/>
 
