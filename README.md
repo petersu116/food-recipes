@@ -9,5 +9,7 @@ A CRUD application allows a user to create, read, update or delete selected data
 - Writing React function components
 - Using hooks like useState()
 - Debugging React code through console output
+- 
+- 
 - Screen shot of the Page:
  ![ScreenShot](Recipe-Screen-Shot .png)
